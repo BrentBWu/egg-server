@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "ali-oss": "^6.22.0",
+    "dotenv": "^16.4.7",
     "egg": "^3.17.5",
     "egg-scripts": "2",
     "egg-view-nunjucks": "^2.3.0",
