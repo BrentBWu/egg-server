@@ -26,6 +26,18 @@ module.exports = (appInfo) => {
       enable: false,
     },
   };
+  config.multipart={
+    mode: 'file',
+    fileSize: '50mb', // 接收文件大小
+    // whitelist: [  // 允许接收的文件类型
+    //   '.png',
+    //   '.jpg'
+    // ],
+  };
+  config.cors = {
+    origin:'*',
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS'
+  };
   config.view = {
     defaultViewEngine: "nunjucks",
     mapping: {

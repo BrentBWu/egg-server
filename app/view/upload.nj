@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<form method="POST" action="http://127.0.0.1:7001/upload" enctype="multipart/form-data">
+		  file: <input name="file" type="file" />
+		  <button type="submit">Upload</button>
+		</form>
+	</body>
+</html>
+

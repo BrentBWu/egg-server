@@ -18,6 +18,8 @@ module.exports = app => {
 
   router.get('/searchList', controller.crud.index);
   router.post('/searchList', controller.crud.searchList);
+  router.all('/uploadPage', controller.upload.uploadPage);
+  router.all('/upload', controller.upload.upload);
   /* 
   csrf拦截 --> 需要关闭拦截才能使用post,需要在config/config.default.js中配置
   config.security = {

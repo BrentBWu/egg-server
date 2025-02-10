@@ -10,7 +10,8 @@
     "ali-oss": "^6.22.0",
     "egg": "^3.17.5",
     "egg-scripts": "2",
-    "egg-view-nunjucks": "^2.3.0"
+    "egg-view-nunjucks": "^2.3.0",
+    "fs-extra": "^11.3.0"
   },
   "devDependencies": {
     "egg-bin": "6",
